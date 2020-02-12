@@ -1,0 +1,486 @@
+body {margin:0;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+
+  -moz-background-size: cover;
+  
+  -o-background-size: cover;
+  
+  background-size: cover;}
+
+.BasDiv, .BasDiv2{
+  background-color: rgb(115, 153, 116);
+  width: 100%;
+  height: 50px;
+  padding-top: 15px;
+}
+.BasDiv a, .BasDiv2 a{
+  float: right;
+  width: 10%;
+  text-align: center;
+  font-size: 25px;
+  color: white;
+  transition: all 0.3s ease;
+}
+.BasDiv a:hover{
+  border-bottom: solid 1px green; 
+}
+.BasDiv2 a:hover{
+  border-bottom: solid 1px green; 
+}
+.BasDiv #link{
+  float: left;
+  width: 50%;
+  margin-bottom: -1cm;
+  margin-top: -0.8cm;
+  text-decoration: none;
+}
+#link:hover{
+  border: none;
+}
+
+.icon-bar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+  border-bottom: solid 1px black;
+}
+.icon-bar a {
+  float: left;
+  width: 25%;
+  
+  text-align: center;
+  padding: 12px 0;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 36px;
+}
+.icon-bar a:hover {
+  background-color: #000;
+}
+.active {
+  background-color: rgb(115, 153, 116);
+}
+.YanMenu{
+  height: 100%;
+  width: 19.9%;
+  background-color: rgb(115, 153, 116);
+  float: right;
+  overflow:hidden;
+  display: block;
+  border-bottom: solid 1px black;
+  border-left: solid 1px black;
+}
+.KayanResimler{
+  overflow: hidden;
+  width: 80%;
+  float: left;
+}
+.KayanResimler .Resimler{
+  float: left;
+  width: 140cm;
+  height: 15cm;
+  position: relative;
+  animation-name: slideranimation;
+  animation-duration: 40s;
+  animation-iteration-count: infinite;
+}
+@keyframes slideranimation{
+  0%{ left: 0px; }
+  25%{ left: -36cm; }
+  50%{ left: -72cm; }
+  75%{ left: -108cm; }
+  100%{ left: -144cm;}
+}
+#kutu{
+  width: 36cm;
+  height: 15cm;
+  background-color: peachpuff;
+  float: left;
+  text-align: center;
+}
+#kutu img{
+  width: 100%;
+  height: 100%;
+}
+.mm li{
+  text-decoration: none;
+  font-size: 30px;
+  color: white;
+  list-style-type: none;
+  padding: 10px;
+}
+.YanMenu a{
+  display: block;
+  font-size: 30px;
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+  }
+  .YanMenu a:hover{
+    background-color: #555;
+  }
+.sehir1, .sehir2, .sehir3, .sehir4, .sehir5, .sehir6, .sehir7{
+  overflow: hidden;
+  display: none;
+}
+
+/* Uyelik Sayfası için Kullandıklarım.*/
+.uyelik{
+  width: 20cm;
+  height: auto;
+  background-color: rgb(139, 59, 27, 0.6);
+  border-radius: 20px;
+  padding: 20px;
+  margin: 25px;
+  font-size: 20px;
+  text-align: center;
+  float: left;
+  }
+.giris{
+  width: 20cm;
+  height: auto;
+  background-color: rgb(139, 59, 27, 0.6);
+  border-radius: 20px;
+  padding: 20px;
+  margin: 25px;
+  font-size: 20px;
+  text-align: center;
+}
+.bas2{color: rgb(248, 209, 172);
+font-size: 25px;
+}
+.uyelik .form-kayit, .giris .form-kayit{
+  line-height: 150%;
+  color: rgb(73, 47, 14);
+  text-align: left;
+  margin-top: 40px;
+}
+.uyelik #isim, #soyisim, #mail, #sifre, #ysifre{
+  width: 5cm;
+  height: 25px;
+}
+.uyelik #adres{
+  height: 2cm;
+  width: 7cm;
+}
+#kayit{
+  border-radius: 15px;
+  height: 1cm;
+  width: auto;
+  background-color: tan;
+  color: rgb(73, 47, 14);;
+}
+#kayıt{
+  height: 25px;
+  width: 2cm;
+}
+.uyelik #uyari, #uyari2, #uyari3, #uyari4{
+  background-color: #555;
+  height: auto;
+  color: white;
+  width: 10cm;
+  text-align: center;
+  margin-left: 5cm;
+  border-radius: 15px;
+}
+
+/* Kayıt Bilgileri için CSS kodları */
+#katagori, #yore{
+  width: 4.5cm;
+  height: 0.75cm;
+  font-size: 15px;
+}
+
+/* Admin Sayfası için CSS kodları */
+.admin_menu{
+  height: 30cm;
+  width: 20%;
+  background-color: rgb(0, 85, 128);
+  float: left;
+  overflow:hidden;
+  display: block;
+}
+.admin_menu a{
+display: block;
+font-size: 30px;
+color: white;
+padding: 10px;
+text-decoration: none;
+}
+.admin_menu a:hover{
+  background-color: rgba(85, 85, 85, 0.781);
+}
+.haber{
+height: auto;
+width: 99.7%;
+float: left;
+border: #555;
+border-style: solid;
+background-color: rgba(243, 225, 203, 0.699);
+}
+.haberresim{
+  height: 6cm;
+  width: 60%;
+  float: left;
+  text-align: center;
+}
+.haberresim img{
+  padding-top: 0.5cm;
+  padding-bottom: 0.5cm;
+  height: 90%;
+  width: 100%;
+}
+.liste, .uye_islem, .urun_islem{
+  list-style-type: none;
+}
+.ust_menu{
+  height: 2cm;
+  background-color: rgb(0, 85, 128);
+  width: 100%;
+  text-align: center;
+  padding: 15px;
+}
+.ust_menu h1{
+  color: white;
+  font-size: 40px;
+}
+.icerik{
+width: 80%;
+height: 100%;
+background-color: rgb(198, 198, 236);
+float: left;
+}
+
+/* Admin Sayfasında Üye listesi için */
+table, tr, td, th {
+  border-collapse: collapse;
+  text-align: center;
+  margin-left:15px;
+  width: 28cm;
+  height: auto;
+  border-bottom: 1px solid black;
+  background-color: rgba(218, 215, 181, 0.856);
+  padding-top: 15px;
+}
+tr:hover{
+  background-color: #555;
+}
+th{
+  font-size: 20px;
+  background-color: rgb(9, 58, 82);
+  color:#B0C4DE;
+}
+.deneme1{
+  height: 7cm;
+  width: 5cm;
+  border: #000;
+  border-style: solid;
+  float: left;
+  margin: 1cm;
+  margin-left: 2cm;
+  position: relative;
+  background-color: white;
+ text-align: center;
+}
+.deneme1 img{
+  width: 4.5cm;
+  height: 4cm;
+}
+.deneme2{
+  position: absolute; 
+  background-color: tan;
+  width: 80%;
+  display: inline;
+  float: left;
+  text-align: center;
+  margin: auto;
+}
+.divsira{
+text-align: end;
+}
+.sira{
+  width: 4cm;
+  height: 1cm;
+  border-radius: 17px;
+  margin-top: 1cm;
+  margin-right: 2cm;
+}
+
+/* Sepet sayfası */
+.sepet{
+  height: auto;
+  width: 99.7%;
+  float: left;
+  border: #555;
+  border-style: solid;
+  background-color: rgba(243, 225, 203, 0.699);
+}
+.SepetGöster{
+  height: auto;
+  width: 80%;
+  position: absolute;
+}
+.sepetresim{
+  height: 6cm;
+  width: 33%;
+  float: left;
+  text-align: center;
+}
+.sepetresim img{
+  padding-top: 0.5cm;
+  height: 5cm;
+  width: 5cm;
+}
+.bilgi{
+  height: auto;
+  width: 33.5%;
+  float: left;
+  text-align: center;
+  padding-top: 0.3cm;
+}
+.islem{
+  height: 4cm;
+  width: 33%;
+  float: right;
+  text-align: center;
+  padding-top: 2cm;
+  font-size: 20px;
+  border: #555;
+  border-left-style: solid;
+  
+}
+.islem a, .islem i, .bilgi p, .bilgi h4{
+  color: rgb(50, 63, 50);
+}
+.bosalt, .onay{
+  height: 2cm;
+  width: 5cm;
+  font-size: 15px;
+  border-radius: 10px;
+  color: white;
+}
+.bosalt{
+  background: rgb(92, 13, 13);
+}
+.onay{
+  background-color: rgb(115, 153, 116);
+  margin-top: 3px;
+}
+.son{
+  text-align: right;
+}
+
+/* Detaylı görünüm sayfası için */
+.baslık{
+  width: 35%;
+}
+.detaylı{
+  height: auto;
+  margin-top: 1cm;
+  width: 70%;
+  position: absolute;
+  background-color: rgb(139, 59, 27, 0.6);
+  border-radius: 20px;
+  padding: 20px;
+  margin: 25px;
+} 
+.ekle{
+  height: 2cm;
+  width: 5cm;
+  font-size: 15px;
+  border-radius: 10px;
+  color: white;
+  background-color: rgb(115, 153, 116);
+  margin-top: 3px;
+}
+.detay_bilgi{
+  background-color: rgb(197, 165, 123, 0.8);
+  float: right;
+  margin: 0.5cm;
+  width: 35%;
+  padding: 1cm;
+  border-radius: 15px;
+}
+a{
+  text-decoration: none;
+  color: #555;
+  font-style: normal;
+  font-size: 20px;
+}
+.detayresim{
+  height: 6cm;
+  width: 33%;
+  float: left;
+  text-align: center;
+}
+.detayresim img{
+  padding-top: 0.5cm;
+  height: 7cm;
+  width: 7cm;
+  padding-left: 0.5cm;
+}
+
+/* ürün kayıt sayfası için*/
+.secenekler{
+  float: right;
+  background-color: #555;
+  width: 20%;
+  height: 13cm;
+}
+.orta{
+  position: absolute;
+  width: 100%;
+}
+.orta a{
+  color: white;
+  font-size: 33px;
+}
+.secenekler div{
+  height: 20%;
+  padding-top: 0.5cm;
+  padding-left: 0.3cm;
+}
+.secenekler a div:hover{
+  background-color: #000;
+}
+.icon-bar2 {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+  border-bottom: solid 1px black;
+}
+.icon-bar2 a {
+  float: left;
+  width: 20%;
+  text-align: center;
+  padding: 12px 0;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 36px;
+}
+.icon-bar2 a:hover {
+  background-color: #000;
+}
+.urunlerim{
+  float: left;
+  width: 80%;
+}
+.urunlerim div a{
+  color: #555;
+  font-size: 20px;
+}
+.kaldır:hover{
+  background-color: #000;
+}
+.iletisim{
+  float: left;
+  width: 20cm;
+  height: auto;
+  background-color: rgb(139, 59, 27, 0.6);
+  border-radius: 20px;
+  padding: 20px;
+  margin: 25px;
+  font-size: 20px;
+  text-align: center;
+}
